@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.love{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./img/teddy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.love form{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.love form input{
+    width: 100%;
+    background-color: lightgray;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+.love form p{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: pink;
+}
+
+.love form button{
+    margin-bottom: 10px;
+    border: 2px solid pink;
+    outline: none;
+    padding: 12px 33px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: #e84393;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.love form button:hover{
+    background-color: pink;
+    color: white;
+}
+
+.refresh{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s ease;
+    position: relative;
+    bottom: 90px;
+}
